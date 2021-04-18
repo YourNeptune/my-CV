@@ -1,0 +1,11 @@
+.Nav{
+    padding: 3em 5em;
+}
+.Nav__items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Nav__items h3 {
+    margin-right: 3em;
+}

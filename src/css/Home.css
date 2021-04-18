@@ -1,0 +1,18 @@
+.Home {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://images.unsplash.com/photo-1499571883643-44e68963973d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2560&q=80")
+      center;
+  background-size: cover;
+  color: white;
+}
+
+.Home__name {
+    font-size: 4.6em;
+}
+
+.Home__title{
+    position: absolute;
+    top: 35%;
+    left: 22%;
+}
