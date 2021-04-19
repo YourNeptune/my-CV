@@ -8,11 +8,15 @@
 }
 
 .Home__name {
-    font-size: 4.6em;
+  font-size: 4.6em;
 }
 
-.Home__title{
-    position: absolute;
-    top: 35%;
-    left: 22%;
+.Home__title {
+  position: absolute;
+  top: 35%;
+  left: 22%;
+}
+
+.Home__button {
+  cursor: pointer;
 }
