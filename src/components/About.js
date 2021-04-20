@@ -1,10 +1,11 @@
 import me from "../images/me.jpeg";
 import "../css/About.css";
+import Education from "./Education";
 
 const About = () => {
   return (
     <div className="About">
-      <h1 className='About__title'>About Me</h1>
+      <h1 className="About__title">About Me</h1>
       <div className="About__container">
         <img src={me} alt="picture_of_myself" />
         <div className="About__text">
@@ -26,9 +27,9 @@ const About = () => {
         </div>
       </div>
 
-      <div className='About__education'>
+      <div className="About__education">
         <h4>Education</h4>
-        
+          <Education />
       </div>
     </div>
   );

@@ -5,8 +5,8 @@
 
 .About__title {
   text-align: center;
-  margin: 1em;
-  font-size: 3.2em;
+  margin: 1.5em;
+  font-size: 3em;
 }
 
 .About__container {
@@ -39,14 +39,13 @@
   width: 900px;
   height: 500px;
   background-color: #eaeaea85;
-  border: 1px solid #707070;
+  /* border: 1px solid #707070; */
   border-radius: 15px;
   margin-top: 10em;
 }
 
-.About__education h4{
-    text-align: center;
-    font-size: 1.5em;
-    margin-top: 1em;
+.About__education h4 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 1em;
 }
-
