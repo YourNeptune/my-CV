@@ -33,6 +33,7 @@
 
 .About__text p {
   color: #666;
+  line-height: 1.7;
 }
 
 .About__educationContainer {
@@ -49,7 +50,12 @@
   margin-top: 2em;
 }
 
+.resume_button {
+  background-color: #403535 !important;
+  color: white !important;
+  padding: 1em 2em !important;
+}
+
 .educations {
- margin: 4em;
-  
+  margin: 4em;
 }

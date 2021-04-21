@@ -9,6 +9,7 @@
 
 .Home__name {
   font-size: 4.6em;
+  margin-bottom: 0.5em;
 }
 
 .Home__title {
@@ -17,6 +18,4 @@
   left: 22%;
 }
 
-.Home__button {
-  cursor: pointer;
-}
+

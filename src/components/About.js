@@ -2,6 +2,7 @@ import me from "../images/me.jpeg";
 import "../css/About.css";
 import Education from "./Education";
 import { faGraduationCap, faUniversity } from "@fortawesome/free-solid-svg-icons";
+import { Button } from "@material-ui/core";
 
 const About = () => {
   return (
@@ -22,15 +23,17 @@ const About = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
-          <div className="About__button">
-            <button>Resume</button>
+          <div>
+            <Button variant="contained" className="resume_button">
+              Resume
+            </Button>
           </div>
         </div>
       </div>
 
       <div className="About__educationContainer">
         <h4>Education</h4>
-        <div className='educations'>
+        <div className="educations">
           <Education
             icon={faGraduationCap}
             text={{
