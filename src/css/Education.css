@@ -1,0 +1,35 @@
+.Education {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.Education__icon {
+  color: #868686;
+  flex: 0.5;
+}
+
+.Education__text {
+  margin-left: 1em;
+
+  flex: 2;
+}
+
+.years,
+.school {
+  font-size: 0.9em;
+  color: #868686;
+  line-height: 2em;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.degree {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #666;
+  line-height: 2em;
+}

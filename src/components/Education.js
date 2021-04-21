@@ -1,15 +1,15 @@
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Education = () => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import '../css/Education.css'
+
+const Education = ({icon, text}) => {
   return (
     <div className="Education">
-      {/* Font awesome icon */}
-      <FontAwesomeIcon icon={faCoffee} />
+      <FontAwesomeIcon className="Education__icon" icon={icon} size="3x" />
       <div className="Education__text">
-        <p className="Education__years">2015 - 2020</p>
-        <p className="Education__school">Carleton University</p>
-        <p className="Education__degree">Bachelor degree</p>
+        <p className="years">{text.year}</p>
+        <p className="school">{text.school}</p>
+        <p className="degree">{text.degree}</p>
       </div>
     </div>
   );

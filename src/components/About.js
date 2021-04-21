@@ -1,6 +1,7 @@
 import me from "../images/me.jpeg";
 import "../css/About.css";
 import Education from "./Education";
+import { faGraduationCap, faUniversity } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -27,9 +28,35 @@ const About = () => {
         </div>
       </div>
 
-      <div className="About__education">
+      <div className="About__educationContainer">
         <h4>Education</h4>
-          <Education />
+        <div className='educations'>
+          <Education
+            icon={faGraduationCap}
+            text={{
+              year: "2015 - 2020",
+              school: "Carleton Univerity",
+              degree: "Bachelor Degree of Computer System Engineering",
+            }}
+          />
+          <Education
+            icon={faUniversity}
+            text={{
+              year: "07/04/2016 - 09/16/2016",
+              school: "Le Cordon Bleu Ottawa Culinary Arts Institute",
+              degree: "Pâtisserie de Base (Basic Pastry Certificate)",
+            }}
+          />
+          <Education
+            icon={faUniversity}
+            text={{
+              year: "06/30/2017 - 09/15/2017",
+              school: "Le Cordon Bleu Ottawa Culinary Arts Institute",
+              degree:
+                "Pâtisserie Intermédiaire (Intermediate Pastry Certificate)",
+            }}
+          />
+        </div>
       </div>
     </div>
   );
