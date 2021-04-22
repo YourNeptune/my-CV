@@ -38,7 +38,7 @@ const About = () => {
             icon={faGraduationCap}
             text={{
               year: "2015 - 2020",
-              school: "Carleton Univerity",
+              school: "Carleton Univerity, Ottawa, ON",
               degree: "Bachelor Degree of Computer System Engineering",
             }}
           />

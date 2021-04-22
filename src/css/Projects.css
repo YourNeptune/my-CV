@@ -1,0 +1,5 @@
+.Projects {
+  display: grid;
+  place-items: center;
+  margin: 7em 13em;
+}
