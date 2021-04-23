@@ -1,5 +1,10 @@
-.Nav{
-    padding: 3em 5em;
+.Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  padding: 1.5em 5em;
 }
 .Nav__items {
   display: flex;
@@ -7,6 +12,16 @@
 }
 
 .Nav__items h3 {
-    margin-right: 3em;
-    cursor: pointer;
+  margin-right: 3em;
+  cursor: pointer;
+}
+
+.nav_home {
+  background-color: transparent;
+  color: white;
+}
+
+.nav_scroll {
+  background-color: rgba(255, 255, 255);
+  box-shadow: 0px 5px 10px -8px #000000;
 }
