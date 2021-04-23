@@ -4,17 +4,41 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <div className="center">
+
+      {/* <Home /> */}
+      <Element name="home">
+        <Home />
+      </Element>
+
+      {/* <About /> */}
+      <Element name="about">
         <About />
+      </Element>
+
+      {/* <Projects /> */}
+      <Element name="projects">
         <Projects />
+      </Element>
+
+      {/* <Contact /> */}
+      <Element name="contact">
         <Contact />
-      </div>
+      </Element>
     </div>
   );
 }

@@ -9,7 +9,7 @@ import { Button } from "@material-ui/core";
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About center">
       <div className="About__container">
         <img src={me} alt="picture_of_myself" />
         <div className="About__text">

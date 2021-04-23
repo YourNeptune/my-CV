@@ -1,5 +1,16 @@
 import { useEffect, useState } from "react";
 import "../css/Navbar.css";
+import * as Scroll from "react-scroll";
+import {
+  Link,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
+import Home from "./Home";
 
 const Navbar = ({}) => {
   const [scroll, setScroll] = useState(false);
@@ -23,10 +34,21 @@ const Navbar = ({}) => {
     <div className={`Nav ${scroll ? "nav_scroll" : "nav_home"} `}>
       {/* Icon */}
       <div className="Nav__items">
-        <a href='home'>Home</a>
-        <a href='about'>About</a>
-        <a href='projects'>Projects</a>
-        <a href='contact'>Contact</a>
+        <Link to="home" spy={true} smooth={true} duration={500}>
+          Home
+        </Link>
+
+        <Link to="about" spy={true} smooth={true} duration={500}>
+          About
+        </Link>
+
+        <Link to="projects" spy={true} smooth={true} duration={500}>
+          Projects
+        </Link>
+
+        <Link to="contact" spy={true} smooth={true} duration={500}>
+          Contact
+        </Link>
       </div>
     </div>
   );
