@@ -10,6 +10,7 @@
 .Nav__items {
   display: flex;
   justify-content: flex-end;
+  font-weight: bold;
 }
 
 .Nav__items a {
@@ -20,11 +21,17 @@
 
 .nav_home {
   background-color: transparent;
-  color: white !important;
+}
+
+.nav_home a {
+  color: white;
 }
 
 .nav_scroll {
   background-color: rgba(255, 255, 255);
   box-shadow: 0px 5px 10px -8px #000000;
-  color: black !important;
+}
+
+.nav_scroll a {
+  color: black;
 }

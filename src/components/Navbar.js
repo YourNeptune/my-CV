@@ -21,6 +21,7 @@ const Navbar = ({}) => {
 
   return (
     <div className={`Nav ${scroll ? "nav_scroll" : "nav_home"} `}>
+      {/* Icon */}
       <div className="Nav__items">
         <a href='home'>Home</a>
         <a href='about'>About</a>

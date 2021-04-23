@@ -5,7 +5,6 @@ import Navbar from "./Navbar";
 const Home = () => {
   return (
     <div className="Home">
-      {/* <Navbar /> */}
       <div className="Home__title">
         <h1 className="Home__name">
           Lixuan <br /> Luo
