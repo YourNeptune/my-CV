@@ -3,17 +3,12 @@
   place-items: center;
 }
 
-.About__title {
-  text-align: center;
-  margin: 1.5em;
-  font-size: 3em;
-}
-
 .About__container {
   display: flex;
   flex-direction: row;
-  width: 900px;
   justify-content: center;
+  width: 900px;
+  margin-top: 8em;
 }
 
 .About__container img {
@@ -57,5 +52,5 @@
 }
 
 .educations {
-  margin: 4em;
+  margin: 3em 5em;
 }

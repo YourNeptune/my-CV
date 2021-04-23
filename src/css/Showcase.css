@@ -1,0 +1,12 @@
+img {
+  width: 650px;
+}
+.Showcase {
+  margin-top: 2em;
+}
+.Showcase__div {
+  display: grid;
+  place-items: center;
+  width: 900px;
+  height: 500px;
+}

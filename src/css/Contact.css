@@ -1,25 +1,14 @@
-.Projects {
+.Contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  /* width: 900px; */
   margin-top: 8em;
   text-align: center;
 }
 
-.Projects__title h1{
+.Contact__title {
   font-size: 3em;
   margin-bottom: 0.3em;
-}
-
-.Projects__title {
-   margin-bottom: 4em;
-}
-
-.showcase {
-  width: 900px;
-  height: 600px;
-  border: 5px solid #666;
-  
 }

@@ -1,13 +1,15 @@
 import me from "../images/me.jpeg";
 import "../css/About.css";
 import Education from "./Education";
-import { faGraduationCap, faUniversity } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGraduationCap,
+  faUniversity,
+} from "@fortawesome/free-solid-svg-icons";
 import { Button } from "@material-ui/core";
 
 const About = () => {
   return (
     <div className="About">
-      <h1 className="About__title">About Me</h1>
       <div className="About__container">
         <img src={me} alt="picture_of_myself" />
         <div className="About__text">
@@ -32,7 +34,7 @@ const About = () => {
       </div>
 
       <div className="About__educationContainer">
-        <h4>Education</h4>
+        <h4>Educations</h4>
         <div className="educations">
           <Education
             icon={faGraduationCap}
@@ -45,18 +47,18 @@ const About = () => {
           <Education
             icon={faUniversity}
             text={{
-              year: "07/04/2016 - 09/16/2016",
+              year: "06/30/2017 - 09/15/2017",
               school: "Le Cordon Bleu Ottawa Culinary Arts Institute",
-              degree: "Pâtisserie de Base (Basic Pastry Certificate)",
+              degree:
+                "Pâtisserie Intermédiaire (Intermediate Pastry Certificate)",
             }}
           />
           <Education
             icon={faUniversity}
             text={{
-              year: "06/30/2017 - 09/15/2017",
+              year: "07/04/2016 - 09/16/2016",
               school: "Le Cordon Bleu Ottawa Culinary Arts Institute",
-              degree:
-                "Pâtisserie Intermédiaire (Intermediate Pastry Certificate)",
+              degree: "Pâtisserie de Base (Basic Pastry Certificate)",
             }}
           />
         </div>
