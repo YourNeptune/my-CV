@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import "../css/Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({}) => {
   const [scroll, setScroll] = useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
-    if (offset > 700) {
+    if (offset > 100) {
       setScroll(true);
     } else {
       setScroll(false);
@@ -22,10 +22,10 @@ const Navbar = () => {
   return (
     <div className={`Nav ${scroll ? "nav_scroll" : "nav_home"} `}>
       <div className="Nav__items">
-        <h3>Home</h3>
-        <h3>About</h3>
-        <h3>Projects</h3>
-        <h3>Contact</h3>
+        <a href='home'>Home</a>
+        <a href='about'>About</a>
+        <a href='projects'>Projects</a>
+        <a href='contact'>Contact</a>
       </div>
     </div>
   );

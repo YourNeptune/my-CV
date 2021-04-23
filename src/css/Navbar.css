@@ -3,25 +3,28 @@
   top: 0;
   width: 100%;
   z-index: 1;
-
   padding: 1.5em 5em;
+  transition-timing-function: ease-in;
+  transition: 0.5s;
 }
 .Nav__items {
   display: flex;
   justify-content: flex-end;
 }
 
-.Nav__items h3 {
+.Nav__items a {
   margin-right: 3em;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav_home {
   background-color: transparent;
-  color: white;
+  color: white !important;
 }
 
 .nav_scroll {
   background-color: rgba(255, 255, 255);
   box-shadow: 0px 5px 10px -8px #000000;
+  color: black !important;
 }
