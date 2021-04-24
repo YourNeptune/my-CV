@@ -1,16 +1,6 @@
 import { useEffect, useState } from "react";
 import "../css/Navbar.css";
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
-import Home from "./Home";
+import { Link } from "react-scroll";
 
 const Navbar = ({}) => {
   const [scroll, setScroll] = useState(false);
@@ -32,7 +22,6 @@ const Navbar = ({}) => {
 
   return (
     <div className={`Nav ${scroll ? "nav_scroll" : "nav_home"} `}>
-      {/* Icon */}
       <div className="Nav__items">
         <Link to="home" spy={true} smooth={true} duration={500}>
           Home
