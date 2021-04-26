@@ -1,0 +1,16 @@
+.ContactInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: initial;
+  margin: 3em;
+}
+
+.contact_icon {
+  flex: 0.18;
+}
+
+.contact_info {
+  margin: 0 2em;
+  flex: 1;
+}

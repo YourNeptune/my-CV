@@ -1,4 +1,6 @@
-import '../css/Contact.css'
+import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import "../css/Contact.css";
+import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
   return (
@@ -9,7 +11,14 @@ const Contact = () => {
         other professional inquiries!
       </p>
       <div>
-        
+        <ContactInfo
+          logo={faMapMarkerAlt}
+          info={{ caption: "Location", text: "Toronto, ON, Canada" }}
+        />
+        <ContactInfo
+          logo={faEnvelope}
+          info={{ caption: "Email", text: "lixuanluo@hotmail.com" }}
+        />
       </div>
     </div>
   );
