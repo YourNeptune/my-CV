@@ -9,7 +9,7 @@ const Educations = () => {
   return (
     <div className="Educations center">
       <h1>Educations</h1>
-      <p>degrees & certificates</p>
+      <p>Degrees & certificates</p>
       <div className="educations">
         <Education
           icon={faGraduationCap}

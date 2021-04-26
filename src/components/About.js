@@ -18,9 +18,9 @@ const About = () => {
               engineering, I moved to Toronto to start a new career.
             </p>
             <p>
-              I took 6-month certificate course in Le Cordon Blue in Ottawa to
-              learn French pastry. Making desserts and cakes is really a
-              enjoyable activity for me!
+              I took basic and intermediate certificate courses in Le Cordon
+              Blue in Ottawa for 6 months to learn French pastry. Making
+              desserts and cakes is really a enjoyable activity for me!
             </p>
             <p>
               I am also a self-taught web developer. I have developed a strong
