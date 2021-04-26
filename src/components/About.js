@@ -29,7 +29,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <Button variant="contained" className="resume_button">
+            <Button  className="resume_button">
               Resume
             </Button>
           </div>

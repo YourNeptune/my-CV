@@ -28,26 +28,13 @@
   font-size: 1em;
 }
 
-/* .About__educationContainer {
-  width: 900px;
-  height: 550px;
-  background-color: #eaeaea85;
-  border-radius: 15px;
-  margin-top: 10em;
-}
-
-.About__educationContainer h4 {
-  text-align: center;
-  font-size: 1.5em;
-  margin-top: 2em;
-} */
 
 .resume_button {
-  background-color: #403535 !important;
+  background-color: #7b4d4d !important;
   color: white !important;
   padding: 1em 2em !important;
 }
 
-/* .educations {
-  margin: 3em 5em;
-} */
+.resume_button:hover {
+  background-color: #ffb5b5 !important;
+}

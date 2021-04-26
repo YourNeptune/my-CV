@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import "../css/Home.css";
-import Navbar from "./Navbar";
+
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
         <h1 className="Home__name">
           Lixuan <br /> Luo
         </h1>
-        <Button className="resume_button" variant="contained">
+        <Button className="resume_button" >
           Resume
         </Button>
       </div>
