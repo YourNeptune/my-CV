@@ -35,3 +35,7 @@
 .nav_scroll a {
   color: black;
 }
+
+.active {
+  color: rgb(255, 203, 92) !important;
+}

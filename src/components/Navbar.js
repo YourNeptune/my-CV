@@ -23,7 +23,13 @@ const Navbar = ({}) => {
   return (
     <div className={`Nav ${scroll ? "nav_scroll" : "nav_home"} `}>
       <div className="Nav__items">
-        <Link to="home" spy={true} smooth={true} duration={500}>
+        <Link
+          to="home"
+          activeClass="active"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           Home
         </Link>
 
