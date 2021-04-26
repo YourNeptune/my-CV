@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="Projects center">
       <div className='Projects__title'>
         <h1>Projects</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p>Here are some baking products that I have made</p>
       </div>
       <div className="showcase">
         <Showcase />
