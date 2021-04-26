@@ -1,9 +1,10 @@
 .ContactInfo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   text-align: initial;
-  margin: 3em;
+  margin-bottom: 3em;
 }
 
 .contact_icon {
@@ -14,3 +15,4 @@
   margin: 0 2em;
   flex: 1;
 }
+

@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 900px; */
   margin-top: 8em;
   text-align: center;
 }
@@ -11,4 +10,9 @@
 .Contact__title {
   font-size: 3em;
   margin-bottom: 0.3em;
+}
+
+.Contact_subtitle {
+  margin-bottom: 4em;
+  /* padding: 0 35em; */
 }
