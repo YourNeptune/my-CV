@@ -31,6 +31,10 @@ const Navbar = ({}) => {
           About
         </Link>
 
+        <Link to="educations" spy={true} smooth={true} duration={500}>
+          Educations
+        </Link>
+
         <Link to="projects" spy={true} smooth={true} duration={500}>
           Projects
         </Link>

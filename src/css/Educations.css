@@ -1,0 +1,20 @@
+.Educations {
+  margin-top: 10em;
+}
+
+.Educations h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0.3em;
+}
+
+.Educations p {
+  color: #666;
+}
+
+.educations {
+  background-color: #eaeaea85;
+  border-radius: 15px;
+  margin: 3em 0;
+  padding: 2em 10em;
+}
