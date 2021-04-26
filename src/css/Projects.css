@@ -1,11 +1,15 @@
 .Projects {
-  margin-top: 8em;
+  margin-top: 12em;
   text-align: center;
 }
 
 .Projects__title h1 {
   font-size: 3em;
   margin-bottom: 0.3em;
+}
+
+.Projects__title p {
+  color: #666;
 }
 
 .Projects__title {
