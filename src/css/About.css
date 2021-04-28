@@ -30,11 +30,11 @@
 
 
 .resume_button {
-  background-color: #7b4d4d !important;
+  background-color: #fea82f !important;
   color: white !important;
   padding: 1em 2em !important;
 }
 
 .resume_button:hover {
-  background-color: #ffb5b5 !important;
+  background-color: #ffc288 !important;
 }
