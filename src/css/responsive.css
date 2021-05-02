@@ -1,0 +1,49 @@
+@media all and (max-width: 1200px) {
+  .About__container {
+    padding: 0 3em !important;
+  }
+}
+
+@media all and (max-width: 950px) {
+  /* Home */
+
+  /* About */
+  .About__container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .About__container img {
+    width: 16em !important;
+  }
+  .About__text {
+    margin-top: 2em;
+  }
+  .About__text h3 {
+  }
+
+  /* Educations */
+  .educations {
+    padding: 2em !important;
+  }
+
+  /* Projects */
+  .Projects {
+    padding: 0 4em !important;
+  }
+  .Showcase__div img {
+    width: 90% !important;
+  }
+
+  /* Contact */
+  .Contact {
+    margin: 8em 2em 0 2em !important;
+  }
+
+  /* Navbar */
+  
+}
+
+
+@media all and (max-width: 420px) {
+  
+}

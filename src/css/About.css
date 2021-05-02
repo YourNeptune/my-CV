@@ -1,10 +1,12 @@
-
+@import "./responsive.css";
 
 .About__container {
   display: flex;
   flex-direction: row;
-  width: 900px;
-  margin-top: 8em;
+  /* width: 900px; */
+  width: 100%;
+  margin: 8em 2em 0 2em;
+  padding: 0 10em;
 }
 
 .About__container img {
@@ -12,13 +14,12 @@
 }
 
 .About__text {
- 
   margin-left:  4em;
 }
 
 .About__text h3 {
   font-size: 1.7em;
-  padding: 0 6em 0 0;
+  /* padding-left: 6em; */
 }
 
 .About__text p {
@@ -30,7 +31,7 @@
 
 
 .resume_button {
-  background-color: #fea82f !important;
+  background-color: #766161 !important;
   color: white !important;
   padding: 1em 2em !important;
 }

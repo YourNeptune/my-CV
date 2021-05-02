@@ -1,6 +1,9 @@
+@import "./responsive.css";
+
 .Projects {
   margin-top: 8em;
   text-align: center;
+  padding: 0 10em;
 }
 
 .Projects__title h1 {
@@ -17,7 +20,8 @@
 }
 
 .showcase {
-  width: 900px;
-  height: 600px;
+  /* width: 900px;
+  height: 600px; */
+  width: 100%;
   border: 5px solid #666;
 }

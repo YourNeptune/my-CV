@@ -6,8 +6,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from './components/Footer'
-
 import { Element } from "react-scroll";
+import './css/responsive.css'
 
 function App() {
   return (

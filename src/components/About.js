@@ -12,10 +12,11 @@ const About = () => {
           <h3>Hello! I'm Lixuan Luo, I love coding and baking.</h3>
           <div>
             <p>
-              I am passionate about self-development and self-improvement in my
-              personal life. I'm always looking to challenge myself and learn
-              new things. After graduating with a bachelor's in computer system
-              engineering, I moved to Toronto to start a new career.
+              I am passionate about
+              self-development and self-improvement in my personal life. I'm
+              always looking to challenge myself and learn new things. After
+              graduating with a bachelor's in computer system engineering, I
+              moved to Toronto to start a new career.
             </p>
             <p>
               I took basic and intermediate certificate courses in Le Cordon
@@ -29,9 +30,7 @@ const About = () => {
             </p>
           </div>
           <div>
-            <Button  className="resume_button">
-              Resume
-            </Button>
+            <Button className="resume_button">Resume</Button>
           </div>
         </div>
       </div>
