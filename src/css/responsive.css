@@ -1,9 +1,11 @@
+/* Large Screen < 1200px */
 @media all and (max-width: 1200px) {
   .About__container {
     padding: 0 3em !important;
   }
 }
 
+/* Medium Screen */
 @media all and (max-width: 950px) {
   /* Home */
 
@@ -11,17 +13,28 @@
   .About__container {
     flex-direction: column !important;
     align-items: center !important;
+    margin-top: 5em !important;
+    padding: 0 6em !important;
   }
   .About__container img {
     width: 16em !important;
   }
   .About__text {
-    margin-top: 2em;
+    margin-top: 4em !important;
+    margin-left: 0 !important;
   }
-  .About__text h3 {
+  .button {
+    display: grid;
+    place-content: center;
   }
 
   /* Educations */
+  .Educations {
+    margin-top: 5em !important;
+  }
+  .Educations h1 {
+    font-size: 2em !important;
+  }
   .educations {
     padding: 2em !important;
   }
@@ -29,21 +42,119 @@
   /* Projects */
   .Projects {
     padding: 0 4em !important;
+    margin-top: 5em !important;
+  }
+  .Projects__title h1 {
+    font-size: 2em !important;
   }
   .Showcase__div img {
-    width: 90% !important;
+    /* width: 90% !important; */
+  }
+  .Showcase {
+    margin: 0em !important;
+  }
+  .Showcase__div {
+    height: 400px !important;
   }
 
   /* Contact */
   .Contact {
     margin: 8em 2em 0 2em !important;
+    margin-top: 5em !important;
+  }
+  .Contact__title {
+    font-size: 2em !important;
   }
 
   /* Navbar */
-  
 }
 
+/* Small Screen */
+@media all and (max-width: 550px) {
+  /* Home */
+  .Home {
+    height: 350px !important;
+  }
+  .Home__name {
+    font-size: 2em !important;
+  }
+  .Home__title {
+    top: 20% !important;
+  }
 
-@media all and (max-width: 420px) {
-  
+  /* About */
+  .About__container {
+    margin-top: 3em !important;
+    padding: 0 2em !important;
+  }
+  .About__container img {
+    width: 10em !important;
+  }
+  .About__text p {
+    font-size: 0.9em !important;
+  }
+
+  /* Educations */
+  .Education {
+    display: flex;
+    flex-direction: column !important;
+    align-items: unset !important;
+  }
+  .Education__icon {
+    margin-bottom: 10px;
+    font-size: 2em !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+  }
+  .years,
+  .school {
+    font-size: 0.6em !important;
+  }
+  .degree {
+    font-size: 0.9em !important;
+  }
+  .educations {
+    padding: 1em !important;
+  }
+  .Education__text {
+    margin-left: 0em !important;
+  }
+
+  /* Projects */
+  .Showcase__div {
+    height: 300px !important;
+  }
+}
+
+/* XS Screen */
+@media all and (max-width: 450px) {
+  /* Projects */
+  .Showcase__div {
+    height: 180px !important;
+  }
+  .Carousel-buttonWrapper-6 button {
+    width: 29px !important;
+    height: 29px !important;
+  }
+  .MuiSvgIcon-root {
+    width: 8px !important;
+    height: 8px !important;
+  }
+}
+
+@media all and (max-width: 360px) {
+  /* Projects */
+  .Showcase__div {
+    height: 100px !important;
+  }
+  .Carousel-buttonWrapper-6 button {
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .showcase {
+    border: none !important;
+  }
+  .Showcase__div img {
+    width: 100% !important;
+  }
 }

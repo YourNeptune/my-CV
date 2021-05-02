@@ -29,7 +29,7 @@ const About = () => {
               that I built this website on my own in React.js.
             </p>
           </div>
-          <div>
+          <div className='button'>
             <Button className="resume_button">Resume</Button>
           </div>
         </div>
