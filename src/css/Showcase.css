@@ -9,6 +9,6 @@
 .Showcase__div {
   display: grid;
   place-items: center;
-  width: 100%;
-
+  width: 900px;
+  height: 600px;
 }

@@ -2,8 +2,6 @@
 
 /* Medium Screen */
 @media all and (max-width: 950px) {
-  /* Home */
-
   /* About */
   .About__container {
     display: flex !important;
@@ -14,7 +12,6 @@
     padding: 0 6em !important;
   }
   .About__container img {
-    /* width: 16em !important; */
     float: none !important;
     padding-right: 0 !important;
   }
@@ -54,6 +51,7 @@
   }
   .Showcase__div {
     height: 400px !important;
+    width: 650px !important;
   }
 
   /* Contact */
@@ -121,6 +119,7 @@
   /* Projects */
   .Showcase__div {
     height: 300px !important;
+    width: 450px !important;
   }
   .Showcase__div img {
     width: 300px !important;
@@ -140,6 +139,7 @@
   /* Projects */
   .Showcase__div {
     height: 180px !important;
+    width: 300px !important;
   }
   .Carousel-buttonWrapper-6 button {
     width: 29px !important;
@@ -163,6 +163,7 @@
   /* Projects */
   .Showcase__div {
     height: 100px !important;
+    width: 200px !important;
   }
   .Carousel-buttonWrapper-6 button {
     width: 15px !important;
