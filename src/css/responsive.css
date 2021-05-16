@@ -111,7 +111,8 @@
     font-size: 0.9em !important;
   }
   .educations {
-    padding: 1em !important;
+    padding: 1em 2em !important;
+    border-radius: 0 !important;
   }
   .Education__text {
     margin-left: 0em !important;
