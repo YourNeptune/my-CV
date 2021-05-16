@@ -16,12 +16,12 @@
 }
 
 .Projects__title {
-  margin-bottom: 4em;
+  /* margin-bottom: 4em; */
 }
 
 .showcase {
   /* width: 900px;
   height: 600px; */
-  width: 100%;
-  border: 5px solid #666;
+
+  /* border: 5px solid #666; */
 }

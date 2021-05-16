@@ -1,19 +1,19 @@
 @import "./responsive.css";
 
 .About__container {
-  display: flex;
-  flex-direction: row;
   width: 100%;
   margin: 8em 2em 0 2em;
-  padding: 0 10em;
+  padding: 0 15em;
+  text-align: left;
 }
 
 .About__container img {
-  width: 21em;
+  width: 20em;
+  float: left;
+  padding-right: 4em;
 }
 
 .About__text {
-  margin-left:  4em;
 }
 
 .About__text h3 {
@@ -26,7 +26,6 @@
   margin: 1em 0;
   font-size: 1em;
 }
-
 
 .resume_button {
   background-color: #766161 !important;

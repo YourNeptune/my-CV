@@ -1,9 +1,4 @@
-/* Large Screen < 1200px */
-@media all and (max-width: 1200px) {
-  .About__container {
-    padding: 0 3em !important;
-  }
-}
+
 
 /* Medium Screen */
 @media all and (max-width: 950px) {
@@ -11,13 +6,17 @@
 
   /* About */
   .About__container {
+    display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+
     margin-top: 5em !important;
     padding: 0 6em !important;
   }
   .About__container img {
-    width: 16em !important;
+    /* width: 16em !important; */
+    float: none !important;
+    padding-right: 0 !important;
   }
   .About__text {
     margin-top: 4em !important;
@@ -48,7 +47,7 @@
     font-size: 2em !important;
   }
   .Showcase__div img {
-    /* width: 90% !important; */
+    width: 500px !important;
   }
   .Showcase {
     margin: 0em !important;
@@ -65,10 +64,7 @@
   .Contact__title {
     font-size: 2em !important;
   }
-
-
 }
-
 
 /* Small Screen */
 @media all and (max-width: 550px) {
@@ -119,11 +115,14 @@
   }
   .Education__text {
     margin-left: 0em !important;
- }
+  }
 
   /* Projects */
   .Showcase__div {
     height: 300px !important;
+  }
+  .Showcase__div img {
+    width: 300px !important;
   }
 
   /* Nav bar */
@@ -132,7 +131,6 @@
   }
   .Nav__items a {
     font-size: 0.7em !important;
-   
   }
 }
 
