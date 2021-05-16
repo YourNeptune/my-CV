@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "../css/Navbar.css";
 import { Link } from "react-scroll";
 
-const Navbar = ({}) => {
+const Navbar = () => {
   const [scroll, setScroll] = useState(false);
   const handleScroll = () => {
     const offset = window.scrollY;
