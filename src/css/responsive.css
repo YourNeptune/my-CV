@@ -65,6 +65,8 @@
   .Contact__title {
     font-size: 2em !important;
   }
+
+
 }
 
 
@@ -125,10 +127,9 @@
   }
 
   /* Nav bar */
-  .Nav__items {
-   justify-items: flex-end !important;
-  
-}
+  .Nav {
+    width: 550px !important;
+  }
   .Nav__items a {
     font-size: 0.7em !important;
    
@@ -151,8 +152,11 @@
   }
 
   /* Nav bar */
-  .Nav{
-    visibility: hidden;
+  .Nav {
+    width: 380px !important;
+  }
+  .Nav__items a {
+    font-size: 0.4em !important;
   }
 }
 
