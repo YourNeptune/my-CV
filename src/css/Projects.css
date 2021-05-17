@@ -8,16 +8,24 @@
 
 .Projects__title h1 {
   font-size: 3em;
-  margin-bottom: 0.3em;
+  margin-bottom: 1em;
 }
 
 .Projects__title p {
   color: #666;
+  margin-bottom: 1em;
 }
 
-.Projects__title {
+.Projects__cakes {
+  margin-bottom: 2em;
 }
 
-.showcase {
-  margin-top: 3em;
+.Projects__websites {
+  width: 100%;
+}
+
+.websites {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2em;
 }

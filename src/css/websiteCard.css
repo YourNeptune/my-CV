@@ -1,0 +1,17 @@
+.websiteCard {
+    height: 250px;
+    /* width: 270px; */
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.websiteCard a {
+    text-decoration: none;
+    color: white;
+}
