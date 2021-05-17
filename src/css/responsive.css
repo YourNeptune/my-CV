@@ -150,6 +150,10 @@
     height: 8px !important;
   }
 
+  .websites {
+    grid-template-columns: initial !important;
+  }
+
   /* Nav bar */
   .Nav {
     width: 380px !important;
