@@ -1,13 +1,13 @@
 import "./css/App.css";
 import Home from "./components/Home";
 import About from "./components/About";
-import Educations from './components/Educations'
+import Educations from "./components/Educations";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-import Footer from './components/Footer'
+import Footer from "./components/Footer";
 import { Element } from "react-scroll";
-import './css/responsive.css'
+import "./css/responsive.css";
 
 function App() {
   return (
@@ -18,26 +18,28 @@ function App() {
       <Element name="home">
         <Home />
       </Element>
+      
+      <div className="container">
+        {/* <About /> */}
+        <Element name="about">
+          <About />
+        </Element>
 
-      {/* <About /> */}
-      <Element name="about">
-        <About />
-      </Element>
+        {/* <Educations /> */}
+        <Element name="educations">
+          <Educations />
+        </Element>
 
-      {/* <Educations /> */}
-      <Element name="educations">
-        <Educations />
-      </Element>
+        {/* <Projects /> */}
+        <Element name="projects">
+          <Projects />
+        </Element>
 
-      {/* <Projects /> */}
-      <Element name="projects">
-        <Projects />
-      </Element>
-
-      {/* <Contact /> */}
-      <Element name="contact">
-        <Contact />
-      </Element>
+        {/* <Contact /> */}
+        <Element name="contact">
+          <Contact />
+        </Element>
+      </div>
 
       <Footer />
     </div>

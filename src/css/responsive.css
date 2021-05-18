@@ -1,15 +1,51 @@
-
+@media all and (max-width: 1900px) {
+  /* Projects */
+  .Showcase__div {
+    height: 650px !important;
+  }
+}
+@media all and (max-width: 1700px) {
+  /* Projects */
+  .Showcase__div {
+    height: 550px !important;
+  }
+}
+@media all and (max-width: 1500px) {
+  /* Projects */
+  .Showcase__div {
+    height: 450px !important;
+  }
+}
+@media all and (max-width: 1300px) {
+  /* App.css */
+  .container {
+    padding: 0 10em !important;
+  }
+  /* Projects */
+  .Showcase__div {
+    height: 350px !important;
+  }
+}
+@media all and (max-width: 1000px) {
+  /* Projects */
+  .Showcase__div {
+    height: 250px !important;
+  }
+}
 
 /* Medium Screen */
 @media all and (max-width: 950px) {
+  /* App.css */
+  .container {
+    padding: 0 7em !important;
+  }
+
   /* About */
   .About__container {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-
-    margin-top: 5em !important;
-    padding: 0 6em !important;
+    /* margin-top: 5em !important; */
   }
   .About__container img {
     float: none !important;
@@ -25,9 +61,6 @@
   }
 
   /* Educations */
-  .Educations {
-    margin-top: 5em !important;
-  }
   .Educations h1 {
     font-size: 2em !important;
   }
@@ -36,36 +69,50 @@
   }
 
   /* Projects */
-  .Projects {
-    padding: 0 4em !important;
-    margin-top: 5em !important;
-  }
   .Projects__title h1 {
     font-size: 2em !important;
   }
   .Showcase__div img {
-    width: 500px !important;
-  }
-  .Showcase {
-    margin: 0em !important;
+    width: 70% !important;
   }
   .Showcase__div {
-    height: 400px !important;
-    width: 650px !important;
+    height: 270px !important;
   }
 
   /* Contact */
   .Contact {
-    margin: 8em 2em 0 2em !important;
-    margin-top: 5em !important;
+    /* margin: 8em 2em 0 2em !important; */
+    /* margin-top: 5em !important; */
   }
   .Contact__title {
     font-size: 2em !important;
   }
 }
 
+@media all and (max-width: 700px) {
+  /* Projects */
+  .Showcase__div {
+    height: 240px !important;
+  }
+  .Showcase__div img {
+    width: 100% !important;
+  }
+
+  /* Nav bar */
+  .Nav__items {
+    justify-content: center !important;
+  }
+  .Nav__items a {
+    font-size: 0.9em !important;
+  }
+}
+
 /* Small Screen */
 @media all and (max-width: 550px) {
+  /* App.css */
+  .container {
+    padding: 0 4em !important;
+  }
   /* Home */
   .Home {
     height: 350px !important;
@@ -80,7 +127,6 @@
   /* About */
   .About__container {
     margin-top: 3em !important;
-    padding: 0 2em !important;
   }
   .About__container img {
     width: 10em !important;
@@ -116,19 +162,7 @@
     margin-left: 0em !important;
   }
 
-  /* Projects */
-  .Showcase__div {
-    height: 300px !important;
-    width: 450px !important;
-  }
-  .Showcase__div img {
-    width: 300px !important;
-  }
-
   /* Nav bar */
-  .Nav {
-    width: 550px !important;
-  }
   .Nav__items a {
     font-size: 0.7em !important;
   }
@@ -136,11 +170,11 @@
 
 /* XS Screen */
 @media all and (max-width: 450px) {
-  /* Projects */
-  .Showcase__div {
-    height: 180px !important;
-    width: 300px !important;
+  /* App.css */
+  .container {
+    padding: 0 2em !important;
   }
+  /* Projects */
   .Carousel-buttonWrapper-6 button {
     width: 29px !important;
     height: 29px !important;
@@ -155,28 +189,26 @@
   }
 
   /* Nav bar */
-  .Nav {
-    width: 380px !important;
-  }
   .Nav__items a {
-    font-size: 0.4em !important;
+    font-size: 0.6em !important;
   }
 }
 
 @media all and (max-width: 360px) {
-  /* Projects */
-  .Showcase__div {
-    height: 100px !important;
-    width: 200px !important;
+  /* App.css */
+  .container {
+    padding: 0 1em !important;
   }
+
+  /* Projects */
   .Carousel-buttonWrapper-6 button {
     width: 15px !important;
     height: 15px !important;
   }
-  .showcase {
-    border: none !important;
-  }
-  .Showcase__div img {
-    width: 100% !important;
+
+
+  /* Nav bar */
+  .Nav__items a {
+    font-size: 0.4em !important;
   }
 }

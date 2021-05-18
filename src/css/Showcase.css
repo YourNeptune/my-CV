@@ -1,14 +1,13 @@
 @import "./responsive.css";
 
 .Showcase__div img {
-  width: 900px;
+  width: 60%;
 }
 .Showcase {
-  margin: 4em;
+ 
 }
 .Showcase__div {
   display: grid;
   place-items: center;
-  width: 900px;
-  height: 600px;
+  height: 700px;
 }
