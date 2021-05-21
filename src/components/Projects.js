@@ -2,6 +2,7 @@ import Showcase from './Showcase'
 import '../css/Projects.css'
 import WebsiteCard from './WebsiteCard';
 import backgroundImg from "../images/coffee.jpeg";
+import backgroundImg1 from "../images/todo_website.png";
 
 const Projects = () => {
   return (
@@ -25,8 +26,8 @@ const Projects = () => {
         </div>
         <div className="websites">
           <WebsiteCard
-            backgroundImg={backgroundImg}
-            title="Test"
+            backgroundImg={backgroundImg1}
+            title="React Todo App"
             websiteUrl="https://react-todo-app-35d00.web.app/"
             githubUrl="https://github.com/YourNeptune/react-todo-app"
           />
