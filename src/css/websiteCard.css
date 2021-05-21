@@ -24,7 +24,8 @@
 }
 
 .cardContent:hover {
-  background-color: rgba(255, 194, 136, 0.9);
+  /* background-color: rgba(255, 194, 136, 0.95); */
+   background-color: rgba(46, 38, 38, 0.7);
 }
 
 .cardContent a {
