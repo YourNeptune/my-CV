@@ -31,7 +31,7 @@ const Projects = () => {
         <div className="websites">
           <WebsiteCard
             backgroundImg={backgroundImg1}
-            title="React Todo App"
+            title="Todo App"
             websiteUrl="https://react-todo-app-35d00.web.app/"
             githubUrl="https://github.com/YourNeptune/react-todo-app"
           />
@@ -43,13 +43,13 @@ const Projects = () => {
           />
           <WebsiteCard
             backgroundImg={backgroundImage3}
-            title="React Weather App"
+            title="Weather App"
             websiteUrl="https://react-weather-app-92cb6b.netlify.app/"
             githubUrl="https://github.com/YourNeptune/react-weather-app"
           />
           <WebsiteCard
             backgroundImg={backgroundImage4}
-            title="React Recipe Search"
+            title="Recipe Search Website"
             websiteUrl="https://react-recipe-search-16a4d0.netlify.app/"
             githubUrl="https://github.com/YourNeptune/react-recipe-search"
           />
