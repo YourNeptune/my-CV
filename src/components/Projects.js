@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="Projects__websites">
-        <div className="Projects__title">
+        <div className="Projects__title2">
           <h3>Websites</h3>
           <p>Here are some react projects that I have made</p>
         </div>

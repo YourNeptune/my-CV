@@ -15,6 +15,12 @@
   .Showcase__div {
     height: 450px !important;
   }
+    .Projects__title p {
+  margin-bottom: 2em !important;
+}
+  .Projects__title2 p {
+  margin-bottom: 2em !important;
+}
 }
 @media all and (max-width: 1300px) {
   /* App.css */
@@ -80,10 +86,6 @@
   }
 
   /* Contact */
-  .Contact {
-    /* margin: 8em 2em 0 2em !important; */
-    /* margin-top: 5em !important; */
-  }
   .Contact__title {
     font-size: 2em !important;
   }
