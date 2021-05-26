@@ -13,7 +13,13 @@
   padding-right: 4em;
 }
 
-.About__text {
+.About__info a {
+  color: #666;
+  text-decoration: none;
+}
+
+.About__info span {
+ color:dodgerblue;
 }
 
 .About__text h3 {
