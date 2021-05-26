@@ -1,7 +1,6 @@
 import Showcase from './Showcase'
 import '../css/Projects.css'
 import WebsiteCard from './WebsiteCard';
-import backgroundImg from "../images/coffee.jpeg";
 import backgroundImg1 from "../images/todo_website.png";
 import backgroundImage2 from '../images/Messenger_website.png'
 import backgroundImage3 from '../images/react_weather_app.png'
@@ -12,12 +11,14 @@ const Projects = () => {
   return (
     <div className="Projects center">
       <div className="Projects__title">
-        <h1>Projects</h1>
+        <h1 className="title">Projects</h1>
       </div>
       <div className="Projects__cakes">
         <div className="Projects__title">
           <h3>Cakes</h3>
-          <p>Here are some baking products that I have made</p>
+          <p className="subtitle">
+            Here are some baking products that I have made
+          </p>
         </div>
         <div className="showcase">
           <Showcase />
@@ -26,7 +27,9 @@ const Projects = () => {
       <div className="Projects__websites">
         <div className="Projects__title2">
           <h3>Websites</h3>
-          <p>Here are some react projects that I have made</p>
+          <p className="subtitle">
+            Here are some react projects that I have made
+          </p>
         </div>
         <div className="websites">
           <WebsiteCard

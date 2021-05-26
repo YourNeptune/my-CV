@@ -8,8 +8,8 @@ import '../css/Educations.css'
 const Educations = () => {
   return (
     <div className="Educations center">
-      <h1>Educations</h1>
-      <p>Degrees & certificates</p>
+      <h1 className="title">Educations</h1>
+      <p className="subtitle">Degrees & certificates</p>
       <div className="educations">
         <Education
           icon={faGraduationCap}

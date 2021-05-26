@@ -45,6 +45,10 @@ const Navbar = () => {
           Projects
         </Link>
 
+        <Link to="skills" spy={true} smooth={true} duration={500}>
+          Skills
+        </Link>
+
         <Link to="contact" spy={true} smooth={true} duration={500}>
           Contact
         </Link>
