@@ -25,10 +25,21 @@
 
 .cardContent:hover {
   /* background-color: rgba(255, 194, 136, 0.95); */
-   background-color: rgba(46, 38, 38, 0.7);
+  background-color: rgba(46, 38, 38, 0.6);
 }
 
-.cardContent a {
+.cardContent p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.cardLinks a{
   text-decoration: none;
   color: white;
+  margin: 1em;
+}
+
+.cardLinks a:hover {
+  color: #ffc288;
 }

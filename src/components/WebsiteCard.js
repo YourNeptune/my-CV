@@ -1,15 +1,21 @@
-import '../css/websiteCard.css'
+import "../css/websiteCard.css";
 
-const WebsiteCard = ({ backgroundImg, websiteUrl,githubUrl, title }) => {
+const WebsiteCard = ({ backgroundImg, websiteUrl, githubUrl, title }) => {
   return (
     <div
       className="websiteCard"
       style={{ backgroundImage: `url(${backgroundImg})` }}
     >
-      <div className='cardContent'>
+      <div className="cardContent">
         <p>{title}</p>
-        <a href={websiteUrl}>Demo</a>
-        <a href={githubUrl}>View Code on Github</a>
+        <div className="cardLinks">
+          <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
+            Demo
+          </a>
+          <a href={githubUrl} target="_blank" rel="noopener noreferrer">
+            Github
+          </a>
+        </div>
       </div>
     </div>
   );
