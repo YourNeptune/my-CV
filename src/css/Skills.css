@@ -1,8 +1,22 @@
 .Skills {
   margin-top: 8em;
   width: 100% ;
+
+
 }
 
-.Skills__title {
-  margin-bottom: 4em;
+.Skills p {
+  margin-bottom: 3em;
 }
+
+.logoSize {
+  font-size: 6em;
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: space-between;
+
+}
+
