@@ -45,6 +45,22 @@ const Skills = () => {
           name="MongoDB"
           data={<i class="devicon-mongodb-plain colored logoSize"></i>}
         />
+        <Skill
+          name="Firebase"
+          data={<i class="devicon-firebase-plain colored logoSize"></i>}
+        />
+        <Skill
+          name="Github"
+          data={<i class="devicon-github-original colored logoSize"></i>}
+        />
+        <Skill
+          name="Visual Studio Code"
+          data={<i class="devicon-visualstudio-plain colored logoSize"></i>}
+        />
+        <Skill
+          name="NPM"
+          data={<i class="devicon-npm-original-wordmark colored logoSize"></i>}
+        />
       </div>
     </div>
   );
