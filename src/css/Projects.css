@@ -9,6 +9,10 @@
   margin-bottom: 1em;
 }
 
+.Projects__title h3, .Projects__title2 h3 {
+  font-size: 2em;
+}
+
 .Projects__title p {
   margin-bottom: 1em;
 }

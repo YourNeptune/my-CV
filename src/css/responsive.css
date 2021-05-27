@@ -9,18 +9,23 @@
   .Showcase__div {
     height: 550px !important;
   }
+
+  /* Skills */
+  .skills_container {
+    grid-template-columns: repeat(auto-fit, 200px) !important;
+  }
 }
 @media all and (max-width: 1500px) {
   /* Projects */
   .Showcase__div {
     height: 450px !important;
   }
-    .Projects__title p {
-  margin-bottom: 2em !important;
-}
+  .Projects__title p {
+    margin-bottom: 2em !important;
+  }
   .Projects__title2 p {
-  margin-bottom: 2em !important;
-}
+    margin-bottom: 2em !important;
+  }
 }
 @media all and (max-width: 1300px) {
   /* App.css */
@@ -30,6 +35,10 @@
   /* Projects */
   .Showcase__div {
     height: 350px !important;
+  }
+  /* Skills */
+  .logoSize {
+    font-size: 4em !important;
   }
 }
 @media all and (max-width: 1000px) {
@@ -89,6 +98,15 @@
   .Contact__title {
     font-size: 2em !important;
   }
+
+  /* Nav bar */
+  .Nav__items {
+    justify-content: center !important;
+  }
+  .Nav__items a {
+    font-size: 1em !important;
+     margin-right: 1.5em !important;
+  }
 }
 
 @media all and (max-width: 700px) {
@@ -106,6 +124,7 @@
   }
   .Nav__items a {
     font-size: 0.9em !important;
+     margin-right: 1.5em !important;
   }
 }
 
@@ -167,6 +186,7 @@
   /* Nav bar */
   .Nav__items a {
     font-size: 0.7em !important;
+     margin-right: 1.7em !important;
   }
 }
 
@@ -190,9 +210,15 @@
     grid-template-columns: initial !important;
   }
 
+  /* Skills */
+  .skills_container {
+    grid-template-columns: repeat(auto-fit, 100px) !important;
+  }
+
   /* Nav bar */
   .Nav__items a {
     font-size: 0.6em !important;
+    margin-right: 2em !important;
   }
 }
 
@@ -208,9 +234,19 @@
     height: 15px !important;
   }
 
-
   /* Nav bar */
   .Nav__items a {
-    font-size: 0.4em !important;
+    font-size: 0.3em !important;
+  }
+
+  /* Skills */
+  .skills_container {
+    grid-template-columns: repeat(auto-fit, 90px) !important;
+  }
+  .logoSize {
+    font-size: 3em !important;
+  }
+  .Skill p {
+    font-size: 1em !important;
   }
 }
