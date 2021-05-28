@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02ccbbc9.chunk.css",
+    "main.js": "/static/js/main.cf5cefa5.chunk.js",
+    "main.js.map": "/static/js/main.cf5cefa5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.056c2000.js",
+    "runtime-main.js.map": "/static/js/runtime-main.056c2000.js.map",
+    "static/js/2.86c277bb.chunk.js": "/static/js/2.86c277bb.chunk.js",
+    "static/js/2.86c277bb.chunk.js.map": "/static/js/2.86c277bb.chunk.js.map",
+    "static/js/3.e3c23e47.chunk.js": "/static/js/3.e3c23e47.chunk.js",
+    "static/js/3.e3c23e47.chunk.js.map": "/static/js/3.e3c23e47.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.02ccbbc9.chunk.css.map": "/static/css/main.02ccbbc9.chunk.css.map",
+    "static/js/2.86c277bb.chunk.js.LICENSE.txt": "/static/js/2.86c277bb.chunk.js.LICENSE.txt",
+    "static/media/Messenger_website.5a6a48e0.png": "/static/media/Messenger_website.5a6a48e0.png",
+    "static/media/img1.af7f74eb.jpeg": "/static/media/img1.af7f74eb.jpeg",
+    "static/media/img10.d8369723.jpeg": "/static/media/img10.d8369723.jpeg",
+    "static/media/img11.5e0655cd.jpeg": "/static/media/img11.5e0655cd.jpeg",
+    "static/media/img12.b0271f56.jpeg": "/static/media/img12.b0271f56.jpeg",
+    "static/media/img2.af5a9de9.jpeg": "/static/media/img2.af5a9de9.jpeg",
+    "static/media/img3.ceae2118.jpeg": "/static/media/img3.ceae2118.jpeg",
+    "static/media/img4.958f9c37.jpeg": "/static/media/img4.958f9c37.jpeg",
+    "static/media/img5.0b497885.jpeg": "/static/media/img5.0b497885.jpeg",
+    "static/media/img6.bc60304e.jpeg": "/static/media/img6.bc60304e.jpeg",
+    "static/media/img7.40f0adfa.jpeg": "/static/media/img7.40f0adfa.jpeg",
+    "static/media/img8.d682399e.jpeg": "/static/media/img8.d682399e.jpeg",
+    "static/media/img9.c4b003d5.jpeg": "/static/media/img9.c4b003d5.jpeg",
+    "static/media/instagram_clone.881bdac7.png": "/static/media/instagram_clone.881bdac7.png",
+    "static/media/me.d7665e0b.jpeg": "/static/media/me.d7665e0b.jpeg",
+    "static/media/react_recipe_search.4dd9bee8.png": "/static/media/react_recipe_search.4dd9bee8.png",
+    "static/media/react_weather_app.778c8f2a.png": "/static/media/react_weather_app.778c8f2a.png",
+    "static/media/todo_website.c871bdb3.png": "/static/media/todo_website.c871bdb3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.056c2000.js",
+    "static/js/2.86c277bb.chunk.js",
+    "static/css/main.02ccbbc9.chunk.css",
+    "static/js/main.cf5cefa5.chunk.js"
+  ]
+}
