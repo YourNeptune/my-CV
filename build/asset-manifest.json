@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.02ccbbc9.chunk.css",
-    "main.js": "/static/js/main.cf5cefa5.chunk.js",
-    "main.js.map": "/static/js/main.cf5cefa5.chunk.js.map",
+    "main.css": "/static/css/main.d7ca88fb.chunk.css",
+    "main.js": "/static/js/main.c92ee753.chunk.js",
+    "main.js.map": "/static/js/main.c92ee753.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.056c2000.js",
     "runtime-main.js.map": "/static/js/runtime-main.056c2000.js.map",
     "static/js/2.86c277bb.chunk.js": "/static/js/2.86c277bb.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e3c23e47.chunk.js": "/static/js/3.e3c23e47.chunk.js",
     "static/js/3.e3c23e47.chunk.js.map": "/static/js/3.e3c23e47.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.02ccbbc9.chunk.css.map": "/static/css/main.02ccbbc9.chunk.css.map",
+    "static/css/main.d7ca88fb.chunk.css.map": "/static/css/main.d7ca88fb.chunk.css.map",
     "static/js/2.86c277bb.chunk.js.LICENSE.txt": "/static/js/2.86c277bb.chunk.js.LICENSE.txt",
     "static/media/Messenger_website.5a6a48e0.png": "/static/media/Messenger_website.5a6a48e0.png",
     "static/media/img1.af7f74eb.jpeg": "/static/media/img1.af7f74eb.jpeg",
@@ -34,7 +34,7 @@
   "entrypoints": [
     "static/js/runtime-main.056c2000.js",
     "static/js/2.86c277bb.chunk.js",
-    "static/css/main.02ccbbc9.chunk.css",
-    "static/js/main.cf5cefa5.chunk.js"
+    "static/css/main.d7ca88fb.chunk.css",
+    "static/js/main.c92ee753.chunk.js"
   ]
 }
