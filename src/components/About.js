@@ -7,7 +7,9 @@ const About = () => {
   return (
     <div className="About center">
       <div className="About__container">
-        <img src={me} alt="picture_of_myself" />
+        <div>
+          <img src={me} alt="picture_of_myself" />
+        </div>
         <div className="About__text">
           <h3>Hello! I'm Lixuan Luo, I love coding and baking.</h3>
           <div>

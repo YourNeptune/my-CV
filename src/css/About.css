@@ -3,13 +3,12 @@
 .About__container {
   width: 100%;
   margin: 8em 2em 0 2em;
-  /* padding: 0 15em; */
   text-align: left;
+  display: inline-flex;
 }
 
 .About__container img {
   width: 20em;
-  float: left;
   padding-right: 4em;
 }
 
