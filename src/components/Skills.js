@@ -22,6 +22,10 @@ const Skills = () => {
           data={<i class="devicon-javascript-plain colored logoSize"></i>}
         />
         <Skill
+          name="Redux"
+          data={<i class="devicon-redux-original colored logoSize"></i>}
+        />
+        <Skill
           name="HTML"
           data={<i class="devicon-html5-plain colored logoSize"></i>}
         />
