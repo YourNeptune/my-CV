@@ -22,7 +22,7 @@ const About = () => {
             <p>
               I took basic and intermediate certificate courses in Le Cordon
               Blue in Ottawa for 6 months to learn French pastry. Making
-              desserts and cakes is really a enjoyable activity for me!
+              desserts and cakes is really an enjoyable activity for me!
             </p>
             <p>
               I am also a self-taught web developer. I have developed a strong

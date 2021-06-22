@@ -6,6 +6,7 @@ import backgroundImage2 from '../images/Messenger_website.png'
 import backgroundImage3 from '../images/react_weather_app.png'
 import backgroundImage4 from "../images/react_recipe_search.png";
 import backgroundImage5 from "../images/instagram_clone.png";
+import backgroundImage6 from '../images/redux-todo-app.png'
 
 const Projects = () => {
   return (
@@ -34,7 +35,7 @@ const Projects = () => {
         <div className="websites">
           <WebsiteCard
             backgroundImg={backgroundImg1}
-            title="Todo App"
+            title="React Todo App"
             websiteUrl="https://react-todo-app-35d00.web.app/"
             githubUrl="https://github.com/YourNeptune/react-todo-app"
           />
@@ -61,6 +62,12 @@ const Projects = () => {
             title="Instagram Clone"
             websiteUrl="https://react-instagram-clone-bfa83.web.app/"
             githubUrl="https://github.com/YourNeptune/instagram-clone"
+          />
+          <WebsiteCard
+            backgroundImg={backgroundImage6}
+            title="Redux Todo App"
+            websiteUrl="https://redux-todo-app-5e797.web.app/"
+            githubUrl="https://github.com/YourNeptune/redux-todo-app"
           />
         </div>
       </div>

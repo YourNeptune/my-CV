@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     const typed = new Typed(typeTarget.current, {
-      strings: [`coder`, `Baker`, `front-end developer`],
+      strings: [`coder`, `front-end developer`, `back-end developer`],
       startDelay: 500,
       typeSpeed: 40,
       backSpeed: 20,
