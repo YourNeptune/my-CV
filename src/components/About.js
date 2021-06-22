@@ -25,9 +25,9 @@ const About = () => {
               desserts and cakes is really an enjoyable activity for me!
             </p>
             <p>
-              I am also a self-taught web developer. I have developed a strong
-              understanding of JavaScript, HTML, CSS, React.js. A fun fact is
-              that I built this website on my own in React.js.
+              I have developed a strong understanding of JavaScript, HTML, CSS,
+              React.js. A fun fact is that I built this website on my own in
+              React.js.
             </p>
           </div>
           <div className="About__info">
