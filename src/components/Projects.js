@@ -1,12 +1,14 @@
-import Showcase from './Showcase'
-import '../css/Projects.css'
-import WebsiteCard from './WebsiteCard';
-import backgroundImg1 from "../images/todo_website.png";
-import backgroundImage2 from '../images/Messenger_website.png'
-import backgroundImage3 from '../images/react_weather_app.png'
+import Showcase from "./Showcase";
+import "../css/Projects.css";
+import WebsiteCard from "./WebsiteCard";
+import backgroundImage1 from "../images/sunnyside_landing_page.png";
+import backgroundImage2 from "../images/todo_website.png";
+import backgroundImage3 from "../images/react_weather_app.png";
 import backgroundImage4 from "../images/react_recipe_search.png";
 import backgroundImage5 from "../images/instagram_clone.png";
-import backgroundImage6 from '../images/redux-todo-app.png'
+import backgroundImage6 from "../images/redux-todo-app.png";
+import backgroundImage7 from "../images/Messenger_website.png";
+
 
 const Projects = () => {
   return (
@@ -34,17 +36,18 @@ const Projects = () => {
         </div>
         <div className="websites">
           <WebsiteCard
-            backgroundImg={backgroundImg1}
+            backgroundImg={backgroundImage1}
+            title="Sunnyside agency landing page"
+            websiteUrl="https://yourneptune.github.io/Sunnyside-agency-landing-page/"
+            githubUrl="https://github.com/YourNeptune/Sunnyside-agency-landing-page"
+          />
+          <WebsiteCard
+            backgroundImg={backgroundImage2}
             title="React Todo App"
             websiteUrl="https://react-todo-app-35d00.web.app/"
             githubUrl="https://github.com/YourNeptune/react-todo-app"
           />
-          <WebsiteCard
-            backgroundImg={backgroundImage2}
-            title="Facebook Message Clone"
-            websiteUrl="https://facebook-messenger-clone-48827.web.app/"
-            githubUrl="https://github.com/YourNeptune/facebook-messenger-clone"
-          />
+
           <WebsiteCard
             backgroundImg={backgroundImage3}
             title="Weather App"
@@ -68,6 +71,12 @@ const Projects = () => {
             title="Redux Todo App"
             websiteUrl="https://redux-todo-app-5e797.web.app/"
             githubUrl="https://github.com/YourNeptune/redux-todo-app"
+          />
+          <WebsiteCard
+            backgroundImg={backgroundImage7}
+            title="Facebook Message Clone"
+            websiteUrl="https://facebook-messenger-clone-48827.web.app/"
+            githubUrl="https://github.com/YourNeptune/facebook-messenger-clone"
           />
         </div>
       </div>

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d7ca88fb.chunk.css",
-    "main.js": "/static/js/main.26ebe350.chunk.js",
-    "main.js.map": "/static/js/main.26ebe350.chunk.js.map",
+    "main.js": "/static/js/main.3c8e5c93.chunk.js",
+    "main.js.map": "/static/js/main.3c8e5c93.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.056c2000.js",
     "runtime-main.js.map": "/static/js/runtime-main.056c2000.js.map",
     "static/js/2.86c277bb.chunk.js": "/static/js/2.86c277bb.chunk.js",
@@ -30,12 +30,13 @@
     "static/media/react_recipe_search.4dd9bee8.png": "/static/media/react_recipe_search.4dd9bee8.png",
     "static/media/react_weather_app.778c8f2a.png": "/static/media/react_weather_app.778c8f2a.png",
     "static/media/redux-todo-app.ff8bec19.png": "/static/media/redux-todo-app.ff8bec19.png",
+    "static/media/sunnyside_landing_page.e6970ab5.png": "/static/media/sunnyside_landing_page.e6970ab5.png",
     "static/media/todo_website.c871bdb3.png": "/static/media/todo_website.c871bdb3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.056c2000.js",
     "static/js/2.86c277bb.chunk.js",
     "static/css/main.d7ca88fb.chunk.css",
-    "static/js/main.26ebe350.chunk.js"
+    "static/js/main.3c8e5c93.chunk.js"
   ]
 }
