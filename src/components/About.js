@@ -26,8 +26,15 @@ const About = () => {
             </p>
             <p>
               I have developed a strong understanding of JavaScript, HTML, CSS,
-              React.js. A fun fact is that I built this website on my own in
-              React.js.
+              ReactJS and even more! I am a proactive recent college graduate
+              from Carleton University. I had the privilege of working for
+              Greencube Analytics Inc. in a frontend developer role, where I
+              learned valuable professional skills such as web design,
+              programming and application development. In both my academic and
+              professional life, I have been consistently praised as
+              hard-working by my professors and peers. Whether working on
+              academic, extracurricular, or professional projects, I apply
+              proven problem-solving, teamwork and creative thinking skills.
             </p>
           </div>
           <div className="About__info">

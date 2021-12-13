@@ -14,7 +14,7 @@ const Skills = () => {
 
       <div className="skills_container">
         <Skill
-          name="React.js"
+          name="ReactJS"
           data={<i class="devicon-react-original colored logoSize"></i>}
         />
         <Skill
@@ -50,12 +50,16 @@ const Skills = () => {
           data={<i class="devicon-mongodb-plain colored logoSize"></i>}
         />
         <Skill
+          name="NodeJS"
+          data={<i class="devicon-nodejs-plain colored logoSize"></i>}
+        />
+        <Skill
           name="Firebase"
           data={<i class="devicon-firebase-plain colored logoSize"></i>}
         />
         <Skill
-          name="Github"
-          data={<i class="devicon-github-original colored logoSize"></i>}
+          name="Git"
+          data={<i class="devicon-git-plain colored logoSize"></i>}
         />
         <Skill
           name="Visual Studio Code"
@@ -64,6 +68,10 @@ const Skills = () => {
         <Skill
           name="NPM"
           data={<i class="devicon-npm-original-wordmark colored logoSize"></i>}
+        />
+        <Skill
+          name="AdobeXD"
+          data={<i class="devicon-xd-plain colored logoSize"></i>}
         />
       </div>
     </div>

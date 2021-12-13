@@ -8,6 +8,7 @@ import backgroundImage4 from "../images/react_recipe_search.png";
 import backgroundImage5 from "../images/instagram_clone.png";
 import backgroundImage6 from "../images/redux-todo-app.png";
 import backgroundImage7 from "../images/Messenger_website.png";
+import backgroundImage8 from "../images/Desktop_design.jpeg"
 
 
 const Projects = () => {
@@ -77,6 +78,12 @@ const Projects = () => {
             title="Facebook Message Clone"
             websiteUrl="https://facebook-messenger-clone-48827.web.app/"
             githubUrl="https://github.com/YourNeptune/facebook-messenger-clone"
+          />
+          <WebsiteCard
+            backgroundImg={backgroundImage8}
+            title="E-commerce product page"
+            websiteUrl="https://ecommerce-site-941685.netlify.app/"
+            githubUrl="https://github.com/YourNeptune/E-commerce-product-page"
           />
         </div>
       </div>
